@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/ossxp-com/" />
+  <default revision="master"
+           remote="github" />
+
+  <project path="test/test1" name="test1">
+    <copyfile src="root.mk" dest="Makefile" />
+  </project>
+  <project path="test/test2" name="test2" />
+
+</manifest>
