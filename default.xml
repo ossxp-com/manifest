@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="github"
            fetch="git://github.com/ossxp-com/" />
-  <default revision="refs/heads/test-1.0"
+  <default revision="refs/tags/v0.1"
            remote="github" />
 
   <project path="test/test1" name="test1">
