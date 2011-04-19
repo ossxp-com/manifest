@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="git://github.com/ossxp-com/" />
+           fetch="git://github.com/ossxp-com/"
+           autodotgit="true" />
   <default revision="master"
            remote="github" />
 
